@@ -4678,9 +4678,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1350027407}
-  - 114: {fileID: 1350027406}
   - 114: {fileID: 1350027409}
   - 114: {fileID: 1350027408}
+  - 114: {fileID: 1350027406}
   m_Layer: 0
   m_Name: EnemyManager
   m_TagString: Untagged
@@ -4694,13 +4694,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1350027405}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1190978225}
-  enemy: {fileID: 1657123489}
+  enemy: {fileID: 100004, guid: 5bbc9070191364c2783f2370bc3a525d, type: 2}
   spawnTime: 1
   spawnPoints:
   - {fileID: 828626130}
